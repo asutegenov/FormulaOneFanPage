@@ -1,0 +1,141 @@
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+/* Navbar */
+.navbar {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+/* Satrt Image */
+.container_bg {
+    position: relative;
+    text-align: center;
+}
+
+.img_start_bg {
+    margin-top: 3.4rem;
+}
+
+.title_start_bg {
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:11rem;
+    opacity: 0.8;
+    color: white;
+    text-shadow: 0px 4px 3px rgb(0, 0, 0, 0.9),
+            0px 8px 13px rgb(0, 0, 0, 0.9),
+            0px 18px 23px rgb(0, 0, 0, 0.9);
+}
+
+.desc_start_bg {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    opacity: .8;
+    color: black;
+    font-weight: 900;
+    text-shadow: 0px 4px 3px rgb(255, 255, 255, 0.9),
+            0px 8px 13px rgb(255, 255, 255, 0.9),
+            0px 18px 23px rgb(255, 255, 255, 0.9);
+}
+
+@media (max-width: 800px) {
+    .title_start_bg {
+        font-size: 4.5rem;
+    }
+    .desc_start_bg {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .title_start_bg {
+        font-size: 4.5rem;
+        top: 38%;
+    }
+    .desc_start_bg {
+        font-size: 1.9rem;
+        top: 57%;
+    }
+}
+
+@media (max-width: 450px) {
+    .title_start_bg {
+        font-size: 2.7rem;
+        top: 43%;
+    }
+    .desc_start_bg {
+        font-size: 1.1rem;
+        top: 60%;
+    }
+}
+
+.title-name {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 3rem;
+    font-family: 'Cairo', sans-serif;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+    /* background-color: red;
+    color: black; */
+}
+
+.title-name h1 {
+    font-size: 5rem;
+}
+
+.person-img {
+    float: left;
+    margin-top: 1.4rem;
+    margin-right: 1.2rem;
+    margin-left: 1rem;
+}
+
+
+.image-img {
+    width: 300px;
+    padding: 0;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trophy-icon {
+    margin-top: .5rem;
+    width: 10%;
+    text-align: center;
+    width: 2rem;
+}
+
+.years-img {
+    font-size: .8rem;
+}
+
+.text-bio {
+    margin: 1rem;
+}
+
+hr {
+    background-color: black;
+    width: 80%;
+    margin-top: 2.3rem;
+}
